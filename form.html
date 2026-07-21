@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>My Doctors Appointment</title>
+</head>
+
+<body>
+
+    <h1>My Doctors Appointment</h1>
+    <p>Fill in the form below to book your appointment!</p>
+    <hr>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Your Name</label><br>
+            <input type="text" placeholder="Enter your full name"><br><br>
+
+            <label>Patient ID</label>
+            <input type="password" placeholder="Your secret ID"><br><br>
+
+            <label>Date of Birth</label><br>
+            <input type="date"><br>
+
+        </fieldset>
+
+        </br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Your Visit</legend>
+            <label>Choose your Doctor</label><br>
+            <select id="doctor">
+                <option value="">Select a doctor</option>
+                <option value="dr-ray">Dr.Ray - General</option>
+                <option value="dr-lee">Dr.Lee - Teeth</option>
+
+            </select><br><br>
+
+            <label>Why are you visting?</label><br>
+            <input type="radio" name="reason"> Fever<br>
+            <input type="radio" name="reason"> Cold<br>
+
+            <label>Any notes for the doctor?</label><br>
+            <textarea id="notes" rows="3" cols="35" placeholder="e.g I have a sore throat for 2 days."></textarea><br>
+
+        </fieldset>
+        <br>
+        </fieldset>
+        <legend>Preferred Visit Day</legend>
+
+        <input type="checkbox" value="mon"> Monday<br>
+        <input type="checkbox" vlue="wed"> Wednesday<br>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Book My Appointment">
+
+    </form>
+
+</body>
+
+</html>
