@@ -1,0 +1,27 @@
+body {
+    background-color: azure;
+    background: linear-gradient(to bottom, lightblue, green);
+    background-repeat: repeat;
+    background-position: top center;
+    font-family: Arial, sans-serif;
+}
+
+.page-header {
+    background: linear-gradient(to right, lightgreen, coral);
+    border-radius: 16px;
+    text-align: center;
+    color: aqua;
+}
+
+.fact-card {
+    color: aquamarine;
+}
+
+.fact-card h2 {
+    color: beige;
+}
+
+.footer-text {
+    text-align: center;
+    color: azure;
+}
