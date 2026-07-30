@@ -1,0 +1,102 @@
+#sword {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    animation-name: moveRight;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+} 
+@keyframes moveRight{
+    from{ 
+        transform: translateX(0); 
+    } 
+    to{
+        transform: translateX(300px); 
+    } 
+}
+
+#helmet {
+    width: 50px;
+    height: 50px;
+    background-color: lime;  
+    border-radius: 50%; 
+    animation: bounce 3s;
+}   
+@keyframes bounce{
+    0% { 
+        transform: translateY(0); 
+    } 
+    50%{ 
+        transform: translateY(-100px); 
+    } 
+    100%{
+    transform:translateY(0)
+}  
+}  
+ 
+
+
+
+#fire {
+    width: 50px;
+    height: 50px;
+    background-color: orange; 
+    animation: pulse 3s;
+}
+@keyframes pulse{ 
+    0%, 100%{
+   transform: scale(1)
+}
+ 50%{
+   transform: scale(1.5)
+ }
+ }
+
+
+#armor {
+    width: 50px;
+    height: 50px;
+    background-color: grey; 
+    animation: colourChange 3s;
+} 
+@keyframes colorChange{
+ 0%{
+   background-color: red
+ }
+ 25%{
+   background-color: green
+ }
+ 50%{ 
+     background-color: purple
+
+
+ }
+ 75%{
+   background-color:beige
+ }
+ 100%{
+   background-color:aqua
+
+
+ }
+}
+
+
+
+
+/* Syntax Order */
+ /* animation: name duration timing-function delay iteration-count
+direction; */
+/* Practical Example */ 
+/* .box { animation: slideAndFade 3s ease 1s infinite alternate } */
+
+
+
+
+
+
+
+
