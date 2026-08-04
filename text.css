@@ -1,0 +1,33 @@
+h1{ 
+    background-color: aqua;
+    font-size: 32px; 
+    font-weight: bolder;
+    font-style: italic;   
+} 
+h2{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva; 
+    text-decoration: line-through; 
+    text-transform: uppercase; 
+    transform: rotate(10dg);
+}  
+h3{ 
+    font-size: 23px; 
+    color: rgb(122, 189, 178); 
+    font-family: Arial, Helvetica, sans-serif;
+    /* text shadow: x-offset, y-offset, blur value color; */ 
+     text-shadow: 10px 20px 6px rgb(122, 189, 178);
+} 
+a{ 
+    text-decoration: dotted; 
+    color: blueviolet; 
+}
+
+
+ 
+
+
+
+    
+    
+
+ 
