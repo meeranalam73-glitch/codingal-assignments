@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Weather App Homepage</title> 
+        <style>
+            /* Universal selector: applies basic settings to the full page */
+
+            *{ 
+            box-sizing: border-box;     
+            font-family: Arial, sans-serif; 
+            } 
+            /* Body background uses colour, image pattern, repeat, position, and attachment */
+            body { 
+            background-color: #87ceed;
+            background-image: radial-gradient(circle, white 2px, transparent 3px);
+         background-size: 40px 40px; 
+         background-repeat: repeat; 
+         background-attachment: fixed; 
+         color: lightcoral; 
+         text-align: center;
+            } 
+
+            h1 { 
+            font-size: 36px; 
+            color: greenyellow 
+            } 
+
+            .subtitle {
+                font-size: 18px; 
+                color: #f0f8ff; 
+            } 
+
+            .weather-icon {
+                width: 400px;
+                border: 3px solid white;
+                border-radius: 20px; 
+                background-image: linear-gradient(to bottom right, #1e90ff, #87cefa); 
+            } 
+
+            .weather-icon {
+               font-size: 70px; 
+               animation: floatCloud 3s infinite alternate; 
+            } 
+
+            #temperature {
+                font-size: 48px; 
+                font-weight: bold; 
+                color: #fffacd;
+            }  
+
+            .detalis {
+                font-size: 18px; 
+                color: orchid;
+            } 
+
+            .forecast-section {
+                width: 600px; 
+                border: 3px solid yellow; 
+                border-radius: 15px; 
+                background-image: radial-gradient(circle, white, #add8e6); 
+                color: #003366; 
+            } 
+
+            .forecast-title { 
+                color: #003366; 
+            } 
+
+            .day {
+                border: 2px solid #4682b4; 
+                font-size: 17px; 
+                color: #003366;
+            } 
+            /* CSS animation using @keyframess */
+            @keyframes floatCloud { 
+                from {
+                    transform: translateY(0px); 
+                } 
+            
+                to { 
+                    transform: translateY(20px); 
+                }
+            } 
+            </style> 
+            </head> 
+             
+            <body> 
+                <h1>My Weather App HomePage</h1> 
+                <div class="weather-icon">Cloud</div> 
+                <p id="temperature">28*C</p> 
+
+                <p class="details">City: Bengaluru</p>  
+                <p class="details">Condition: Partly Cloud</p>
+                <p class="details">Humidity: 62%</p>
+                <p class="details">Wind Speed: 12km/s</p>
+            </div> 
+
+            <h2>Weekly Forecast</h2> 
+            <div class="forecast-section">
+                <h3 class="forecast-title">Next 5 days</h3>
+
+                <p class="day">Monday:Sunny - 30*C</p>
+                <p class="day">Tuesday:Cloudy - 27*C</p> 
+                <p class="day">Wednesday: Rainy- 24*C</p> 
+                <p class="day">Thursday: Windy- 26*C</p>  
+                <p class="day">Friday:Stormy- 27*C</p> 
+                </div>
+
+                </body>
+                </html>
+
+            
+
+
+               
+
