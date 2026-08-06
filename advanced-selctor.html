@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Food Menu</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: orange;
+            text-align: right;
+        }
+
+        h1 {
+            color: lightskyblue
+        }
+
+        /* Sibling Selector - styles the paragraph right after h1 */
+        h1+p {
+            background: #ffe0b2;
+            border-radius: 9px;
+            color: goldenrod;
+        }
+
+        /*Child Selector - styles only direct li children of ul */
+        ul>li {
+            list-style: disc;
+            font-size: 10px;
+            font-weight: bolder;
+            color: bisque;
+            background: #120b01;
+            width: 5px;
+        }
+
+        ul li:nth-child(3) {
+            background: #ffe082;
+            color: orange;
+        }
+
+
+
+        .desc {
+            color: grey;
+            font-size: 16px;
+            width: 330px;
+        }
+
+        .desc::first-letter {
+            font-size: 219px;
+            color: lightseagreen;
+            font-weight: bolder;
+        }
+
+        a {
+            color: yellowgreen;
+            text-decoration: overline;
+            font-size: 15px;
+            border: 2px solid #e65c00;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Food Menu</h1>
+    <p>Pick your favourite food and dig in!</p>
+
+    <ul>
+        <li>Burger</li>
+        <li>Tacos — Chef's Special!</li>
+        <li>Noodles</li>
+        <li>Ice Cream</li>
+    </ul>
+
+
+    <p class="desc">Every dish on this menu is made with love and
+        loads of flavour. Try them all and find your favourite!</p>
+
+
+    <div class="links">
+        <a href="#">Order Now</a>
+        <a href="#">See More</a>
+    </div>
+</body>
+
+</html>
